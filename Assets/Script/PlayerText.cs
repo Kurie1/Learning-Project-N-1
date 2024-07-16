@@ -13,7 +13,9 @@ namespace Assets.Script
         public void OnTriggerEnter(Collider other)
         {
             Score += 1;
-            PlayerSocre.text = $"{Score}"; 
+            PlayerSocre.text = $"{Score}";
+
+            Destroy(other.gameObject);
         }
         
     }
