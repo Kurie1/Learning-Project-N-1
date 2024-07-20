@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 541545345}
   - component: {fileID: 541545344}
   - component: {fileID: 541545343}
+  - component: {fileID: 541545347}
   m_Layer: 0
   m_Name: FloorTile
   m_TagString: Untagged
@@ -334,6 +335,22 @@ Transform:
   - {fileID: 286014009}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &541545347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541545342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f696806f18218c45bfac9648e32ae2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: 100
+  b: 0
+  c: 1
+  d: 0
 --- !u!1 &1603471552
 GameObject:
   m_ObjectHideFlags: 0
